@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+   
+    <meta charset="UTF-8">
+    <title>Terpconnect Static Site</title>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+
+<h1>Terpconnect Static Site</h1>
+
+<h2>Render Info</h2>
+<ul>
+    <li><strong>Name:</strong> Ayush Patel</li>
+    <li>
+        <strong>Render Location:</strong>
+        <a href=".com">
+            .com
+        </a>
+    </li>
+</ul>
+
+<p>
+    <strong>Last Modified:</strong> <!--#echo var="LAST_MODIFIED" --><br>
+</p>
+
+
+<hr>
+
+<main>
+    <h2>Jalen Hurts</h2>
+
+    <p>
+        Jalen Hurts is the quarterback for the Philadelphia Eagles and is the best QB in the league, he is known for his
+        leadership, athleticism, and consistent improvement throughout his career.
+    </p>
+
+    <h3>Career Timeline</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Year</th>
+                <th>Team</th>
+                <th>Achievement</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2016–2018</td>
+                <td>Alabama</td>
+                <td>SEC Champion</td>
+            </tr>
+            <tr>
+                <td>2019</td>
+                <td>Oklahoma</td>
+                <td>Heisman Finalist</td>
+            </tr>
+            <tr>
+                <td>2020–Present</td>
+                <td>Philadelphia Eagles</td>
+                <td>Super Bowl Champion</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>Highlights</h3>
+    <p>
+        <a href="https://www.youtube.com/watch?v=JEZlxdTVbf8" target="_blank">
+            Watch Jalen Hurts Highlights on YouTube
+        </a>
+    </p>
+</main>
+
+</body>
+</html>

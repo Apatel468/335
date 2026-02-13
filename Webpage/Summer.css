@@ -1,0 +1,85 @@
+/* Do not remove this rule */
+html {
+  font-size: 14px;
+}
+
+body {
+  max-width: 48rem;
+  margin: 0 auto;
+
+  border-width: 1rem;
+  border-style: solid;
+  border-color: antiquewhite;
+
+  background-color: black;
+}
+
+.brownBord {
+  padding: 0.5rem;
+
+  background-color: antiquewhite;
+  border-width: 0.4rem;
+  border-style: double;
+  border-color: brown;
+}
+
+.blueBord {
+  padding: 2.5rem;
+
+  background-color: white;
+  border-style: ridge;
+  border-width: 0.5rem;
+  border-color: blue;
+}
+
+.logo {
+  max-width: 6rem;
+  height: auto;
+}
+
+#csText {
+  max-width: 30rem;
+  height: 4rem;
+}
+
+#MajorTitle {
+  text-decoration: underline;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+.intro {
+  color: brown;
+}
+
+.intro:hover {
+  color: red;
+}
+
+.intro::first-letter {
+  font-size: 3rem;
+}
+
+.editors {
+  font-weight: bold;
+}
+
+table,
+th,
+td {
+  border: 0.1rem solid black;
+}
+
+thead {
+  color: brown;
+  background-color: antiquewhite;
+}
+
+#tableTitle {
+  color: blue;
+  font-style: italic;
+  text-decoration: underline;
+}
+

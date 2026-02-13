@@ -1,0 +1,51 @@
+:root {
+    --primary-color: #000000;
+    --content-bg: rgba(255, 255, 255, 0.9);
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url('https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/eagles/wnq6llqjde6z90uy5qs8');
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+header, main, footer {
+    background-color: var(--content-bg);
+    margin: 40px;
+    padding: 40px;
+    border-radius: 12px;
+}
+
+h1, h2, h3 {
+    color: var(--primary-color);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #004c54;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #2b6502;
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
